@@ -19,6 +19,5 @@ while (F(x) < 100):
 
 # Print the content of this dictionary in english, e.g., "4 is the square of 2".
 for i in dict.keys():
-    x = dict[i]
-    print ('{} is the square of {}'.format(x,i))
+    print ('{} is the square of {}'.format(dict[i],i))
 
