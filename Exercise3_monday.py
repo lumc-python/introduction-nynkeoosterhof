@@ -7,7 +7,6 @@ Created on Mon Sep 18 15:09:34 2017
 """
 
 list = range(1,101)
-print list
 
 for i in list:
     if ((i % 3) == 0) & ((i % 5) == 0):
